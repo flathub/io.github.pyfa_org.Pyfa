@@ -137,8 +137,8 @@
       ],
       "sources" : [
         {
-          "url" : "https://www.python.org/ftp/python/3.7.15/Python-3.7.15.tar.xz",
-          "sha256" : "5911475a07ac2b53d746e88a0716af6d2b4734941919136ea0d33fb9c75b9714",
+          "url" : "https://www.python.org/ftp/python/3.7.17/Python-3.7.17.tar.xz",
+          "sha256" : "7911051ed0422fd54b8f59ffc030f7cf2ae30e0f61bda191800bb040dce4f9d2",
           "type" : "archive"
         }
       ],
@@ -178,8 +178,8 @@
       "name": "pyfa",
       "sources" : [
         {
-          "url" : "https://github.com/pyfa-org/Pyfa/archive/refs/tags/v2.53.0.tar.gz",
-          "sha256" : "82958260289cde0ee0894f658a4173d57e6e343c8505b5fbcbbaa0f7a917f96d",
+          "url" : "https://github.com/pyfa-org/Pyfa/archive/refs/tags/v2.53.1.tar.gz",
+          "sha256" : "986f96be6df3f201fb33c6e2c6527466f58bf1a0df121fac987c923d99bf1516",
           "type" : "archive"
         },
         {
