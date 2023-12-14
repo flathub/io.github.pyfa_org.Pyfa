@@ -1,8 +1,8 @@
 {
   "id" : "io.github.pyfa_org.Pyfa",
-  "runtime" : "org.freedesktop.Platform",
-  "runtime-version" : "22.08",
-  "sdk" : "org.freedesktop.Sdk",
+  "runtime" : "org.gnome.Platform",
+  "runtime-version" : "45",
+  "sdk" : "org.gnome.Sdk",
   "command" : "pyfa",
   "finish-args" : [
     "--share=ipc",
@@ -68,118 +68,39 @@
     "/bin/wxget"
   ],
   "modules" : [
-    "shared-modules/gtk2/gtk2.json",
-    "shared-modules/libsoup/libsoup-2.4.json",
+    "python3-modules.json",
     {
-      "name": "webkitgtk",
-      "config-opts": [
-          "--with-gtk=2.0",
-          "--disable-webkit2",
-          "--disable-geolocation",
-          "--disable-video",
-          "--disable-spellcheck",
-          "--disable-credential-storage",
-          "--disable-web-audio"
-      ],
-      "build-options": {
-          "cflags": "-O2 -g -pipe -Wno-expansion-to-defined -Wno-class-memaccess -fno-delete-null-pointer-checks -fpermissive -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_60",
-          "cflags-override": true,
-          "cxxflags": "-O2 -g -pipe -Wno-expansion-to-defined -Wno-class-memaccess -fno-delete-null-pointer-checks -fpermissive -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_60",
-          "cxxflags-override": true,
-          "arch": {
-              "aarch64": {
-                  "cflags": "-O2 -g -pipe -DENABLE_YARR_JIT=0 -Wno-expansion-to-defined -Wno-class-memaccess -fno-delete-null-pointer-checks -fpermissive -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_60",
-                  "cflags-override": true,
-                  "cxxflags": "-O2 -g -pipe -DENABLE_YARR_JIT=0 -Wno-expansion-to-defined -Wno-class-memaccess -fno-delete-null-pointer-checks -fpermissive -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_60",
-                  "cxxflags-override": true,
-                  "config-opts": [
-                      "--disable-jit"
-                  ]
-              }
-          }
-      },
-      "cleanup": [
-          "/share/doc",
-          "/bin"
+      "name": "python3-matplotlib",
+      "buildsystem": "simple",
+      "build-commands": [
+        "pip3 install . --verbose --exists-action=i --no-index --find-links=file://${PWD} --prefix=${FLATPAK_DEST} --no-build-isolation"
       ],
       "sources": [
-          {
-              "type": "archive",
-              "url": "https://www.webkitgtk.org/releases/webkitgtk-2.4.11.tar.xz",
-              "sha256": "588aea051bfbacced27fdfe0335a957dca839ebe36aa548df39c7bbafdb65bf7"
-          },
-          {
-              "type": "patch",
-              "path": "patches/webkitgtk-2.4.11.patch"
-          },
-          {
-              "type": "patch",
-              "path": "patches/webkitgtk-fix.patch"
-          },
-          {
-              "type": "patch",
-              "path": "patches/webkitgtk-41-fix.patch"
-          }
-      ]
-    },
-    {
-      "name" : "python-3.7",
-      "config-opts" : [
-        "--prefix=${FLATPAK_DEST}",
-        "--enable-shared",
-        "--with-computed-gotos",
-        "--enable-ipv6",
-        "--with-system-expat",
-        "--with-dbmliborder=gdbm:ndbm",
-        "--enable-loadable-sqlite-extensions",
-        "--with-ensurepip",
-        "--with-setuptools=no"
-      ],
-      "sources" : [
         {
-          "url" : "https://www.python.org/ftp/python/3.7.17/Python-3.7.17.tar.xz",
-          "sha256" : "7911051ed0422fd54b8f59ffc030f7cf2ae30e0f61bda191800bb040dce4f9d2",
-          "type" : "archive"
+          "type": "archive",
+          "dest": "build/freetype-2.6.1",
+          "url": "https://downloads.sourceforge.net/project/freetype/freetype2/2.6.1/freetype-2.6.1.tar.gz",
+          "sha256": "0a3c7dfbda6da1e8fce29232e8e96d987ababbbf71ebc8c75659e4132c367014"
+        },
+        {
+          "type": "archive",
+          "dest": "build/qhull-2020.2",
+          "url": "http://www.qhull.org/download/qhull-2020-src-8.0.2.tgz",
+          "sha256": "b5c2d7eb833278881b952c8a52d20179eab87766b00b865000469a45c1838b7e"
+        },
+        {
+          "type": "archive",
+          "url": "https://files.pythonhosted.org/packages/fb/ab/38a0e94cb01dacb50f06957c2bed1c83b8f9dac6618988a37b2487862944/matplotlib-3.8.2.tar.gz",
+          "sha256": "01a978b871b881ee76017152f1f1a0cbf6bd5f7b8ff8c96df0df1bd57d8755a1"
         }
-      ],
-      "cleanup" : [
-        "/bin/2to3*",
-        "/bin/easy_install*",
-        "/bin/idle*",
-        "/bin/pydoc*",
-        "/bin/python*-config",
-        "/bin/pyvenv*",
-        "/include",
-        "/lib/debug",
-        "/lib/pkgconfig",
-        "/lib/python*/config",
-        "/lib/python*/config-3.7m*",
-        "/share",
-        "/lib/python*/pydoc_data",
-        "/lib/python*/test",
-        "/lib/python*/*/test",
-        "/lib/python*/*/tests",
-        "/lib/python*/lib-tk/test",
-        "/lib/python*/lib-dynload/_*_test.*.so",
-        "/lib/python*/lib-dynload/_test*.*.so",
-        "/lib/python*/idlelib",
-        "/lib/python*/tkinter*",
-        "/lib/python*/turtle*",
-        "/lib/python*/lib2to3*",
-        "/lib/python2.7/config/libpython2.7.a"
-      ],
-      "post-install" : [
-        "chmod 644 $FLATPAK_DEST/lib/libpython3.7m.so.1.0",
-        "chmod 644 $FLATPAK_DEST/lib/libpython3.so"
       ]
     },
-    "python3-modules.json",
     {
       "name": "pyfa",
       "sources" : [
         {
-          "url" : "https://github.com/pyfa-org/Pyfa/archive/refs/tags/v2.55.0.tar.gz",
-          "sha256" : "301d1b870d5f481e13e81184614db559b00464d0e5229f08f2421070857441db",
+          "url" : "https://github.com/pyfa-org/Pyfa/archive/refs/tags/v2.57.3.tar.gz",
+          "sha256" : "851a0997424f8f56f4431f4cbe0f48a3a6cbd81f78058b77cd48cde503904b84",
           "type" : "archive"
         },
         {
@@ -202,8 +123,8 @@
       "buildsystem": "simple",
       "build-commands": [
         "find locale/ -type f -name '*.po' -exec msgen '{}' -o '{}' \\;",
-        "/app/bin/python3.7 scripts/compile_lang.py",
-        "/app/bin/python3.7 db_update.py",
+        "python3 scripts/compile_lang.py",
+        "python3 db_update.py",
         "mkdir -p ${FLATPAK_DEST}/lib/pyfa",
         "cp -r eos graphs gui imgs locale service utils eve.db config.py pyfa.py db_update.py README.md LICENSE version.yml ${FLATPAK_DEST}/lib/pyfa",
         "find ${FLATPAK_DEST}/lib/pyfa | grep -E '(__pycache__|\\.pyc|\\.pyo$)' | xargs rm -rf",
