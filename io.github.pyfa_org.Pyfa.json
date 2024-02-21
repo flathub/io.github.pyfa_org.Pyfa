@@ -99,8 +99,8 @@
       "name": "pyfa",
       "sources" : [
         {
-          "url" : "https://github.com/pyfa-org/Pyfa/archive/refs/tags/v2.57.3.tar.gz",
-          "sha256" : "851a0997424f8f56f4431f4cbe0f48a3a6cbd81f78058b77cd48cde503904b84",
+          "url" : "https://github.com/pyfa-org/Pyfa/archive/refs/tags/v2.58.0.tar.gz",
+          "sha256" : "7cb835251fc93e495dba7011db27e30b22bf5ef653819a760f43dbb2cf4d018f",
           "type" : "archive"
         },
         {
