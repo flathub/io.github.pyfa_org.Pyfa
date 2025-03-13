@@ -102,7 +102,14 @@
         {
           "url" : "https://github.com/pyfa-org/Pyfa/archive/refs/tags/v2.61.3.tar.gz",
           "sha256" : "5151ee981170df21775e835a6189370c35bb1c41d35dc546408994f1fcbb7080",
-          "type" : "archive"
+          "type": "archive",
+          "x-checker-data": {
+            "type": "json",
+            "url": "https://api.github.com/repos/pyfa-org/Pyfa/releases/latest",
+            "version-query": ".tag_name | sub(\"^v\"; \"\")",
+            "url-query": "\"https://github.com/pyfa-org/Pyfa/archive/refs/tags/\" + .tag_name + \".tar.gz\"",
+            "is-main-source": true
+          }
         },
         {
           "type": "file",
