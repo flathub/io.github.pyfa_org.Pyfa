@@ -1,17 +1,17 @@
 {
-  "id" : "io.github.pyfa_org.Pyfa",
-  "runtime" : "org.gnome.Platform",
-  "runtime-version" : "47",
-  "sdk" : "org.gnome.Sdk",
-  "command" : "pyfa",
-  "finish-args" : [
+  "id": "io.github.pyfa_org.Pyfa",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "47",
+  "sdk": "org.gnome.Sdk",
+  "command": "pyfa",
+  "finish-args": [
     "--share=ipc",
     "--share=network",
     "--socket=x11",
     "--device=dri"
   ],
-  "separate-locales" : false,
-  "cleanup" : [
+  "separate-locales": false,
+  "cleanup": [
     "/lib/cmake/",
     "/lib/pkgconfig",
     "/man",
@@ -68,7 +68,7 @@
     "/bin/wxdocs",
     "/bin/wxget"
   ],
-  "modules" : [
+  "modules": [
     "python3-modules.json",
     {
       "name": "python3-matplotlib",
@@ -98,10 +98,10 @@
     },
     {
       "name": "pyfa",
-      "sources" : [
+      "sources": [
         {
-          "url" : "https://github.com/pyfa-org/Pyfa/archive/refs/tags/v2.61.3.tar.gz",
-          "sha256" : "5151ee981170df21775e835a6189370c35bb1c41d35dc546408994f1fcbb7080",
+          "url": "https://github.com/pyfa-org/Pyfa/archive/refs/tags/v2.62.1.tar.gz",
+          "sha256": "0d4cc27b7000edc18cfdea1f1e7247edc0ba60cab6bcff5bf289e75c02cf3754",
           "type": "archive",
           "x-checker-data": {
             "type": "json",
@@ -120,8 +120,8 @@
           "path": "io.github.pyfa_org.Pyfa.desktop"
         },
         {
-            "type": "file",
-            "path": "io.github.pyfa_org.Pyfa.metainfo.xml"
+          "type": "file",
+          "path": "io.github.pyfa_org.Pyfa.metainfo.xml"
         },
         {
           "type": "file",
