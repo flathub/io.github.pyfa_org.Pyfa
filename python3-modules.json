@@ -136,8 +136,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/cc/98/c1d93c1d7593f58515333a6217aa4ae647d9ee9c1aa2dfdf77b28b7bb7c7/Logbook-1.7.0.post0.tar.gz",
-                    "sha256": "a5e8016701ca3beea6a390b0ba1541037f663543ca508ccd36cfdc841639cdd7"
+                    "url": "https://files.pythonhosted.org/packages/07/d1/0be80be60881e2b5d8747a64558a858c759443ad2d2b7e036272e87cb9f4/Logbook-1.7.0.post0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "c7d7a39dbfa9c2793569691c719c6f0269a21b01583f33dfcc6052b3312fc5f2"
                 }
             ]
         },
