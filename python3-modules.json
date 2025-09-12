@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/dd/2b/205ddff2314d4eea852e31d53b8e55eb3f32b292efc3dd86bd827ab9019d/numpy-1.26.2.tar.gz",
-                    "sha256": "f65738447676ab5777f11e6bbbdb8ce11b785e105f690bc45966574816b6d3ea"
+                    "url": "https://files.pythonhosted.org/packages/04/89/3b831e2b50c9364069609d1335f46c488a149d5f2be14a08741c92a60009/numpy-1.26.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "aa317b2325f7aa0a9471663e6093c210cb2ae9c0ad824732b307d2c51983d5b6"
                 }
             ]
         },
@@ -100,8 +100,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f8/3e/32cbd0129a28686621434cbf17bb64bf1458bfb838f1f668262fefce145c/pillow-10.2.0.tar.gz",
-                    "sha256": "e87f0b2c78157e12d7686b27d63c070fd65d994e8ddae6f328e0dcf4a0cd007e"
+                    "url": "https://files.pythonhosted.org/packages/a8/2f/86cf1dc4b0530e4c3e96edd0338dcc4809c2622d9d45460029a71a831473/pillow-10.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "1e23412b5c41e58cec602f1135c57dfcf15482013ce6e5f093a86db69646a5aa"
                 }
             ]
         },
@@ -178,8 +178,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/11/a3/48ddc7ae832b000952cf4be64452381d150a41a2299c2eb19237168528d1/contourpy-1.2.0.tar.gz",
-                    "sha256": "171f311cb758de7da13fc53af221ae47a5877be5a0843a9fe150818c51ed276a"
+                    "url": "https://files.pythonhosted.org/packages/20/84/ffddcdcc579cbf7213fd92a3578ca08a931a3bf879a22deb5a83ffc5002c/contourpy-1.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "6e739530c662a8d6d42c37c2ed52a6f0932c2d4a3e8c1f90692ad0ce1274abe0"
                 }
             ]
         },
@@ -206,8 +206,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/52/c0/b117fe560be1c7bf889e341d1437c207dace4380b10c14f9c7a047df945b/fonttools-4.49.0.tar.gz",
-                    "sha256": "ebf46e7f01b7af7861310417d7c49591a85d99146fc23a5ba82fdb28af156321"
+                    "url": "https://files.pythonhosted.org/packages/93/90/30a1b40865a1dccd0af4147e699f3db9a7e7533d983be64b04e5bd3e6c22/fonttools-4.49.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "4145f91531fd43c50f9eb893faa08399816bb0b13c425667c48475c9f3a2b9b5"
                 }
             ]
         },
@@ -220,8 +220,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b9/2d/226779e405724344fc678fcc025b812587617ea1a48b9442628b688e85ea/kiwisolver-1.4.5.tar.gz",
-                    "sha256": "e57e563a57fb22a142da34f38acc2fc1a5c864bc29ca1517a88abc963e60d6ec"
+                    "url": "https://files.pythonhosted.org/packages/e3/d5/bc0f22ac108743062ab703f8d6d71c9c7b077b8839fa358700bfb81770b8/kiwisolver-1.4.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "2270953c0d8cdab5d422bee7d2007f043473f9d2999631c86a223c9db56cbd16"
                 }
             ]
         },
@@ -253,8 +253,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz",
-                    "sha256": "f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5"
+                    "url": "https://files.pythonhosted.org/packages/ee/fb/14d30eb4956408ee3ae09ad34299131fb383c47df355ddb428a7331cfa1e/charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "90d558489962fd4918143277a773316e56c72da56ec7aa3dc3dbbe20fdfed15b"
                 },
                 {
                     "type": "file",
@@ -282,13 +282,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5a/0a/dabe332c40afebb0a979d3e66b34570fce2f8611bae19b186f0c69f54643/SQLAlchemy-1.4.50.tar.gz",
-                    "sha256": "3b97ddf509fc21e10b09403b5219b06c5b558b27fc2453150274fa4e70707dbf"
+                    "url": "https://files.pythonhosted.org/packages/b7/cf/4bf87f387b5360d14ef6cbcca64decf5a37ed2f6aa734724825d5146f821/SQLAlchemy-1.4.50-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "8a7a66297e46f85a04d68981917c75723e377d2e0599d15fbe7a56abed5e2d75"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/17/14/3bddb1298b9a6786539ac609ba4b7c9c0842e12aa73aaa4d8d73ec8f8185/greenlet-3.0.3.tar.gz",
-                    "sha256": "43374442353259554ce33599da8b692d5aa96f8976d567d4badf263371fbe491"
+                    "url": "https://files.pythonhosted.org/packages/63/0f/847ed02cdfce10f0e6e3425cd054296bddb11a17ef1b34681fa01a055187/greenlet-3.0.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "881b7db1ebff4ba09aaaeae6aa491daeb226c8150fc20e836ad00041bcb11230"
                 }
             ]
         },
@@ -304,13 +304,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/68/ce/95b0bae7968c65473e1298efb042e10cafc7bafc14d9e4f154008241c91d/cffi-1.16.0.tar.gz",
-                    "sha256": "bcb3ef43e58665bbda2fb198698fcae6776483e0c4a631aa5647806c25e02cc0"
+                    "url": "https://files.pythonhosted.org/packages/09/d4/8759cc3b2222c159add8ce3af0089912203a31610f4be4c36f98e320b4c6/cffi-1.16.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "e715596e683d2ce000574bae5d07bd522c781a822866c20495e52520564f0969"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/7e/45/81f378eb85aab14b229c1032ba3694eff85a3d75b35092c3e71abd2d34f6/cryptography-42.0.4-cp39-abi3-manylinux_2_28_x86_64.whl",
-                    "sha256": "44a64043f743485925d3bcac548d05df0f9bb445c5fcca6681889c7c3ab12764"
+                    "url": "https://files.pythonhosted.org/packages/32/c2/4ff3cf950504aa6ccd3db3712f515151536eea0cf6125442015b0532a46d/cryptography-42.0.4-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "6ffb03d419edcab93b4b19c22ee80c007fb2d708429cecebf1dd3258956a563a"
                 },
                 {
                     "type": "file",
@@ -375,8 +375,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz",
-                    "sha256": "d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e"
+                    "url": "https://files.pythonhosted.org/packages/b9/2b/614b4752f2e127db5cc206abc23a8c19678e92b23c3db30fc86ab731d3bd/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "80bab7bfc629882493af4aa31a4cfa43a4c57c83813253626916b8c7ada83476"
                 }
             ]
         },
@@ -433,8 +433,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz",
-                    "sha256": "f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5"
+                    "url": "https://files.pythonhosted.org/packages/ee/fb/14d30eb4956408ee3ae09ad34299131fb383c47df355ddb428a7331cfa1e/charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "90d558489962fd4918143277a773316e56c72da56ec7aa3dc3dbbe20fdfed15b"
                 },
                 {
                     "type": "file",
@@ -465,6 +465,20 @@
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl",
                     "sha256": "450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d"
+                }
+            ]
+        },
+        {
+            "name": "python3-matplotlib",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"matplotlib==3.8.2\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/fc/52/bfd36eb4745a3b21b3946c2c3a15679b620e14574fe2b98e9451b65ef578/matplotlib-3.8.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                    "sha256": "d7b1704a530395aaf73912be741c04d181f82ca78084fbd80bc737be04848331"
                 }
             ]
         }
