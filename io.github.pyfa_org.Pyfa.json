@@ -74,14 +74,17 @@
       "name": "pyfa",
       "sources": [
         {
-          "url": "https://github.com/pyfa-org/Pyfa/archive/refs/tags/v2.64.1.tar.gz",
-          "sha256": "003dda84231d855fd25b9cff09daafe147f29c0a433d74c4607fc74cb521350a",
+          "url": "https://api.github.com/repos/pyfa-org/Pyfa/tarball/v2.64.1",
+          "sha256": "2ef3105a2c710a842b8c073510e9538e8eebf8c6abfce19dd92a38ae29b9b02a",
           "type": "archive",
+          "archive-type": "tar-gzip",
           "x-checker-data": {
             "type": "json",
             "url": "https://api.github.com/repos/pyfa-org/Pyfa/releases/latest",
-            "version-query": ".tag_name | sub(\"^v\"; \"\")",
-            "url-query": "\"https://github.com/pyfa-org/Pyfa/archive/refs/tags/\" + .tag_name + \".tar.gz\"",
+            "url-query": ".tarball_url",
+            "tag-query": ".tag_name",
+            "version-query": "$tag | sub(\"^v\"; \"\")",
+            "timestamp-query": ".published_at",
             "is-main-source": true
           }
         },
