@@ -74,8 +74,8 @@
       "name": "pyfa",
       "sources": [
         {
-          "url": "https://api.github.com/repos/pyfa-org/Pyfa/tarball/v2.66.0",
-          "sha256": "d9787a3df4a4231d0e4448585712840464debda886c5a4989e5eb398a3f43f58",
+          "url": "https://api.github.com/repos/pyfa-org/Pyfa/tarball/v2.66.1",
+          "sha256": "711696670de703693de6ea6ddccfc96d32c3d040678b6a882437946fbc370ab8",
           "type": "archive",
           "archive-type": "tar-gzip",
           "x-checker-data": {
