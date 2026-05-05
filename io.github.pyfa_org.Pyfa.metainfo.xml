@@ -8,6 +8,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-only</project_license>
   <url type="homepage">https://github.com/pyfa-org/Pyfa</url>
+  <url type="vcs-browser">https://github.com/pyfa-org/Pyfa</url>
   <categories>
     <category>Game</category>
   </categories>
@@ -31,6 +32,7 @@
   <screenshots>
     <screenshot type="default">
       <image>https://user-images.githubusercontent.com/275209/66119992-864be080-e5e2-11e9-994a-3a4368c9fad7.png</image>
+      <caption>Main screen of pyfa displaying a ship fitting and statistics</caption>
     </screenshot>
   </screenshots>
   <releases>
