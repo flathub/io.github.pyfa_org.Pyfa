@@ -1,7 +1,7 @@
 {
   "id": "io.github.pyfa_org.Pyfa",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "pyfa",
   "finish-args": [
