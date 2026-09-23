@@ -1,7 +1,7 @@
 {
   "id": "io.github.pyfa_org.Pyfa",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "50",
+  "runtime-version": "51",
   "sdk": "org.gnome.Sdk",
   "command": "pyfa",
   "finish-args": [
@@ -69,22 +69,45 @@
     "/bin/wxget"
   ],
   "modules": [
+    {
+      "name": "python3-wxPython",
+      "buildsystem": "simple",
+      "build-options": {
+        "env": {
+          "WXPYTHON_BUILD_ARGS": "--release --nodoc"
+        }
+      },
+      "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"wxPython==4.3.1\" --no-build-isolation"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/3d/dd/026f6286f8beefcdd9551ad2e05b4e3edb45e638cdc067db211c53c950ce/wxpython-4.3.1.tar.gz",
+          "sha256": "4e3a95b63175be8e10f0662de506a36d8cc6cb86ecc5b30ae880c8dafb34a0cd"
+        }
+      ],
+      "cleanup": [
+        "/bin",
+        "/share/man/man1"
+      ]
+    },
     "python3-modules.json",
     {
       "name": "pyfa",
       "sources": [
         {
-          "url": "https://api.github.com/repos/pyfa-org/Pyfa/tarball/v2.68.0",
-          "sha256": "52bad84e64fbf1505a5eb75dc522db80000344fb6d90716f79b3ba7da5e6986b",
-          "type": "archive",
-          "archive-type": "tar-gzip",
+          "type": "git",
+          "url": "https://github.com/pyfa-org/Pyfa.git",
+          "tag": "v2.69.0",
+          "commit": "052c597b0a43fece16f746b9aa45e59b317b55bb",
           "x-checker-data": {
             "type": "json",
             "url": "https://api.github.com/repos/pyfa-org/Pyfa/releases/latest",
-            "url-query": ".tarball_url",
             "tag-query": ".tag_name",
             "version-query": "$tag | sub(\"^v\"; \"\")",
             "timestamp-query": ".published_at",
+            "release-url-template": "https://github.com/pyfa-org/Pyfa/releases/tag/$version",
             "is-main-source": true
           }
         },
