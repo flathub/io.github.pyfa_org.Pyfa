@@ -107,7 +107,7 @@
             "tag-query": ".tag_name",
             "version-query": "$tag | sub(\"^v\"; \"\")",
             "timestamp-query": ".published_at",
-            "release-url-template": "https://github.com/pyfa-org/Pyfa/releases/tag/$version",
+            "release-url-template": "https://github.com/pyfa-org/Pyfa/releases/tag/v$version",
             "is-main-source": true
           }
         },
