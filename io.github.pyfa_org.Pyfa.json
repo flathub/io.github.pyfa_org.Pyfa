@@ -99,8 +99,8 @@
         {
           "type": "git",
           "url": "https://github.com/pyfa-org/Pyfa.git",
-          "tag": "v2.69.0",
-          "commit": "052c597b0a43fece16f746b9aa45e59b317b55bb",
+          "tag": "v2.69.1",
+          "commit": "94bae19001d0fff123d8ab1feb40171a9934a68f",
           "x-checker-data": {
             "type": "json",
             "url": "https://api.github.com/repos/pyfa-org/Pyfa/releases/latest",

@@ -36,9 +36,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.69.1" date="2026-10-06">
+      <url type="details">https://github.com/pyfa-org/Pyfa/releases/tag/v2.69.1</url>
+      <description></description>
+    </release>
     <release version="2.69.0" date="2026-09-22">
       <url type="details">https://github.com/pyfa-org/Pyfa/releases/tag/v2.69.0</url>
-      <description></description>
+      <description/>
     </release>
     <release version="2.68.0" date="2026-07-07">
       <description/>
